@@ -11,4 +11,3 @@ docker-compose.yml
 .eslintignore
 .dockerignore
 .github/
-.devcontainer.
