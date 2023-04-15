@@ -1,3 +1,33 @@
+# Ultraviolet App - Docker
+Docker images for hosting Ultraviolet and its front-end on Docker.
+
+...I know that there is already an existing Docker image in Ultraviolet-App, but this image is:
+  - based on a more official image (node:18-alpine)
+  - ignores unnecessary files
+  - isn't ridiculously obsecure (to be completely honest, i had no idea an official image existed until I was writing this readme lol)
+
+# Usage
+
+Example `docker run` usage:
+```
+docker run -v "80:80" -d diffusehyperion/ultraviolet:latest
+```
+
+Example `docker-compose.yml` usage:
+```
+version: '2'
+services:
+  ultraviolet:
+    image: diffusehyperion/ultraviolet:latest
+    restart: unless-stopped
+    ports:
+      - "80:80"
+```
+
+Works with reverse proxies too! I recommend using [Nginx Proxy Manager](https://nginxproxymanager.com/).
+
+# Original description
+
 <p align="center"><img src="https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png" height="200"></p>
 
 <h1 align="center">Ultraviolet-App</h1>
