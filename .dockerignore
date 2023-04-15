@@ -1,0 +1,14 @@
+replit.nix
+README.md
+LICENSE
+Dockerfile
+docker-compose.yml
+.replit
+.prettierrc.json
+.prettierignore
+.gitignore
+.eslintrc.json
+.eslintignore
+.dockerignore
+.github/
+.devcontainer.
