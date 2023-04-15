@@ -1,10 +1,14 @@
 # Ultraviolet App - Docker
 Docker images for hosting Ultraviolet and its front-end on Docker.
 
+Docker Hub repository: https://hub.docker.com/r/diffusehyperion/ultraviolet
+
+Also available in Github Packages: https://github.com/DiffuseHyperion/Ultraviolet-App-docker/pkgs/container/ultraviolet
+
 ...I know that there is already an existing Docker image in Ultraviolet-App, but this image is:
   - based on a more official image (node:18-alpine)
   - ignores unnecessary files
-  - isn't ridiculously obsecure (to be completely honest, i had no idea an official image existed until I was writing this readme lol)
+  - isn't ridiculously obsecure (to be completely honest, i had no idea an [official image](https://hub.docker.com/r/np22jpg/ultraviolet-node) existed until I was writing this readme lol)
 
 # Usage
 
