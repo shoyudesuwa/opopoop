@@ -14,7 +14,7 @@ Also available in Github Packages: https://github.com/DiffuseHyperion/Ultraviole
 
 Example `docker run` usage:
 ```
-docker run -v "80:80" -d diffusehyperion/ultraviolet:latest
+docker run -v "80:8080" -d diffusehyperion/ultraviolet:latest
 ```
 
 Example `docker-compose.yml` usage:
