@@ -25,7 +25,7 @@ services:
     image: diffusehyperion/ultraviolet:latest
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "80:8080"
 ```
 
 Works with reverse proxies too! I recommend using [Nginx Proxy Manager](https://nginxproxymanager.com/).
